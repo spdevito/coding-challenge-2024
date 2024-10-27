@@ -1,0 +1,1097 @@
+<test-run id="2" duration="0.06513769999999999" testcasecount="105" total="105" passed="0" failed="105" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:23Z" end-time="2024-10-23T17:29:24Z">
+  <test-suite type="Assembly" name="Tests.dll" fullname="C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\bin\Debug\net8.0\Tests.dll" total="105" passed="0" failed="105" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.0651377">
+    <test-suite type="TestSuite" name="Tests" fullname="Tests" total="105" passed="0" failed="105" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.0651377">
+      <test-suite type="TestFixture" name="AnagramCheckerTests" fullname="Tests.AnagramCheckerTests" classname="Tests.AnagramCheckerTests" total="6" passed="0" failed="6" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.017839">
+        <test-case name="AreAnagrams_ForAnagramStrings_ShouldReturnTrue(&quot;Listen&quot;,&quot;Silent&quot;)" fullname="Tests.AnagramCheckerTests.AreAnagrams_ForAnagramStrings_ShouldReturnTrue(&quot;Listen&quot;,&quot;Silent&quot;)" methodname="AreAnagrams_ForAnagramStrings_ShouldReturnTrue(&quot;Listen&quot;,&quot;Silent&quot;)" classname="AnagramCheckerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.016431" asserts="0" seed="1817864632">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.AnagramChecker.AreAnagrams(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\AnagramChecker.cs:line 15
+   at Tests.AnagramCheckerTests.AreAnagrams_ForAnagramStrings_ShouldReturnTrue(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\AnagramCheckerTests.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="AreAnagrams_ForAnagramStrings_ShouldReturnTrue(&quot;Dormitory&quot;,&quot;Dirty room&quot;)" fullname="Tests.AnagramCheckerTests.AreAnagrams_ForAnagramStrings_ShouldReturnTrue(&quot;Dormitory&quot;,&quot;Dirty room&quot;)" methodname="AreAnagrams_ForAnagramStrings_ShouldReturnTrue(&quot;Dormitory&quot;,&quot;Dirty room&quot;)" classname="AnagramCheckerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000639" asserts="0" seed="1290998776">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.AnagramChecker.AreAnagrams(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\AnagramChecker.cs:line 15
+   at Tests.AnagramCheckerTests.AreAnagrams_ForAnagramStrings_ShouldReturnTrue(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\AnagramCheckerTests.cs:line 13
+   at InvokeStub_AnagramCheckerTests.AreAnagrams_ForAnagramStrings_ShouldReturnTrue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="AreAnagrams_ForAnagramStrings_ShouldReturnTrue(&quot;The eyes&quot;,&quot;They see&quot;)" fullname="Tests.AnagramCheckerTests.AreAnagrams_ForAnagramStrings_ShouldReturnTrue(&quot;The eyes&quot;,&quot;They see&quot;)" methodname="AreAnagrams_ForAnagramStrings_ShouldReturnTrue(&quot;The eyes&quot;,&quot;They see&quot;)" classname="AnagramCheckerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000199" asserts="0" seed="1618395927">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.AnagramChecker.AreAnagrams(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\AnagramChecker.cs:line 15
+   at Tests.AnagramCheckerTests.AreAnagrams_ForAnagramStrings_ShouldReturnTrue(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\AnagramCheckerTests.cs:line 13
+   at InvokeStub_AnagramCheckerTests.AreAnagrams_ForAnagramStrings_ShouldReturnTrue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="AreAnagrams_ForRandomStrings_ShouldReturnFalse(&quot;Hello&quot;,&quot;World&quot;)" fullname="Tests.AnagramCheckerTests.AreAnagrams_ForRandomStrings_ShouldReturnFalse(&quot;Hello&quot;,&quot;World&quot;)" methodname="AreAnagrams_ForRandomStrings_ShouldReturnFalse(&quot;Hello&quot;,&quot;World&quot;)" classname="AnagramCheckerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000229" asserts="0" seed="331421154">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.AnagramChecker.AreAnagrams(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\AnagramChecker.cs:line 15
+   at Tests.AnagramCheckerTests.AreAnagrams_ForRandomStrings_ShouldReturnFalse(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\AnagramCheckerTests.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="AreAnagrams_ForRandomStrings_ShouldReturnFalse(&quot;Test&quot;,&quot;Taste&quot;)" fullname="Tests.AnagramCheckerTests.AreAnagrams_ForRandomStrings_ShouldReturnFalse(&quot;Test&quot;,&quot;Taste&quot;)" methodname="AreAnagrams_ForRandomStrings_ShouldReturnFalse(&quot;Test&quot;,&quot;Taste&quot;)" classname="AnagramCheckerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000245" asserts="0" seed="86017824">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.AnagramChecker.AreAnagrams(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\AnagramChecker.cs:line 15
+   at Tests.AnagramCheckerTests.AreAnagrams_ForRandomStrings_ShouldReturnFalse(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\AnagramCheckerTests.cs:line 22
+   at InvokeStub_AnagramCheckerTests.AreAnagrams_ForRandomStrings_ShouldReturnFalse(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="AreAnagrams_ForRandomStrings_ShouldReturnFalse(&quot;abc&quot;,&quot;def&quot;)" fullname="Tests.AnagramCheckerTests.AreAnagrams_ForRandomStrings_ShouldReturnFalse(&quot;abc&quot;,&quot;def&quot;)" methodname="AreAnagrams_ForRandomStrings_ShouldReturnFalse(&quot;abc&quot;,&quot;def&quot;)" classname="AnagramCheckerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="9.6E-05" asserts="0" seed="19372995">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.AnagramChecker.AreAnagrams(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\AnagramChecker.cs:line 15
+   at Tests.AnagramCheckerTests.AreAnagrams_ForRandomStrings_ShouldReturnFalse(String first, String second) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\AnagramCheckerTests.cs:line 22
+   at InvokeStub_AnagramCheckerTests.AreAnagrams_ForRandomStrings_ShouldReturnFalse(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="BinaryTreeMaxDepthTests" fullname="Tests.BinaryTreeMaxDepthTests" classname="Tests.BinaryTreeMaxDepthTests" total="3" passed="0" failed="3" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.001709">
+        <test-case name="Should_Return_0_For_Single_Node" fullname="Tests.BinaryTreeMaxDepthTests.Should_Return_0_For_Single_Node" methodname="Should_Return_0_For_Single_Node" classname="BinaryTreeMaxDepthTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000744" asserts="0" seed="2022509544">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BinaryTreeMaxDepth.GetMaxDepth(BinaryNode rootNode) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BinaryTreeMaxDepth.cs:line 26
+   at Tests.BinaryTreeMaxDepthTests.Should_Return_0_For_Single_Node() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BinaryTreeMaxDepthTests.cs:line 14
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_3_For_Chain" fullname="Tests.BinaryTreeMaxDepthTests.Should_Return_3_For_Chain" methodname="Should_Return_3_For_Chain" classname="BinaryTreeMaxDepthTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000538" asserts="0" seed="2061054045">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BinaryTreeMaxDepth.GetMaxDepth(BinaryNode rootNode) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BinaryTreeMaxDepth.cs:line 26
+   at Tests.BinaryTreeMaxDepthTests.Should_Return_3_For_Chain() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BinaryTreeMaxDepthTests.cs:line 70
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_4_For_Exemplary_Tree" fullname="Tests.BinaryTreeMaxDepthTests.Should_Return_4_For_Exemplary_Tree" methodname="Should_Return_4_For_Exemplary_Tree" classname="BinaryTreeMaxDepthTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000427" asserts="0" seed="1669221813">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BinaryTreeMaxDepth.GetMaxDepth(BinaryNode rootNode) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BinaryTreeMaxDepth.cs:line 26
+   at Tests.BinaryTreeMaxDepthTests.Should_Return_4_For_Exemplary_Tree() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BinaryTreeMaxDepthTests.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="BriefcaseLockTests" fullname="Tests.BriefcaseLockTests" classname="Tests.BriefcaseLockTests" total="8" passed="0" failed="8" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.0017859">
+        <test-case name="Should_Count_Fewest_Lock_Turns(&quot;0000&quot;,&quot;0000&quot;)" fullname="Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(&quot;0000&quot;,&quot;0000&quot;)" methodname="Should_Count_Fewest_Lock_Turns(&quot;0000&quot;,&quot;0000&quot;)" classname="BriefcaseLockTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000435" asserts="0" seed="542907729">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BriefcaseLock.TurnsRequired(String current, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BriefcaseLock.cs:line 27
+   at Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(String start, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BriefcaseLockTests.cs:line 19
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Fewest_Lock_Turns(&quot;0000&quot;,&quot;1000&quot;)" fullname="Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(&quot;0000&quot;,&quot;1000&quot;)" methodname="Should_Count_Fewest_Lock_Turns(&quot;0000&quot;,&quot;1000&quot;)" classname="BriefcaseLockTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000401" asserts="0" seed="18351813">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BriefcaseLock.TurnsRequired(String current, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BriefcaseLock.cs:line 27
+   at Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(String start, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BriefcaseLockTests.cs:line 19
+   at InvokeStub_BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Fewest_Lock_Turns(&quot;9001&quot;,&quot;0000&quot;)" fullname="Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(&quot;9001&quot;,&quot;0000&quot;)" methodname="Should_Count_Fewest_Lock_Turns(&quot;9001&quot;,&quot;0000&quot;)" classname="BriefcaseLockTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000165" asserts="0" seed="2136590023">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BriefcaseLock.TurnsRequired(String current, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BriefcaseLock.cs:line 27
+   at Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(String start, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BriefcaseLockTests.cs:line 19
+   at InvokeStub_BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Fewest_Lock_Turns(&quot;4089&quot;,&quot;5672&quot;)" fullname="Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(&quot;4089&quot;,&quot;5672&quot;)" methodname="Should_Count_Fewest_Lock_Turns(&quot;4089&quot;,&quot;5672&quot;)" classname="BriefcaseLockTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000163" asserts="0" seed="1543631307">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BriefcaseLock.TurnsRequired(String current, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BriefcaseLock.cs:line 27
+   at Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(String start, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BriefcaseLockTests.cs:line 19
+   at InvokeStub_BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Fewest_Lock_Turns(&quot;1111&quot;,&quot;1100&quot;)" fullname="Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(&quot;1111&quot;,&quot;1100&quot;)" methodname="Should_Count_Fewest_Lock_Turns(&quot;1111&quot;,&quot;1100&quot;)" classname="BriefcaseLockTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000178" asserts="0" seed="170336477">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BriefcaseLock.TurnsRequired(String current, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BriefcaseLock.cs:line 27
+   at Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(String start, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BriefcaseLockTests.cs:line 19
+   at InvokeStub_BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Fewest_Lock_Turns(&quot;1111&quot;,&quot;1234&quot;)" fullname="Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(&quot;1111&quot;,&quot;1234&quot;)" methodname="Should_Count_Fewest_Lock_Turns(&quot;1111&quot;,&quot;1234&quot;)" classname="BriefcaseLockTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000152" asserts="0" seed="1459518983">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BriefcaseLock.TurnsRequired(String current, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BriefcaseLock.cs:line 27
+   at Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(String start, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BriefcaseLockTests.cs:line 19
+   at InvokeStub_BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Fewest_Lock_Turns(&quot;2391&quot;,&quot;4984&quot;)" fullname="Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(&quot;2391&quot;,&quot;4984&quot;)" methodname="Should_Count_Fewest_Lock_Turns(&quot;2391&quot;,&quot;4984&quot;)" classname="BriefcaseLockTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000152" asserts="0" seed="1957829782">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BriefcaseLock.TurnsRequired(String current, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BriefcaseLock.cs:line 27
+   at Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(String start, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BriefcaseLockTests.cs:line 19
+   at InvokeStub_BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Fewest_Lock_Turns(&quot;0000&quot;,&quot;1987&quot;)" fullname="Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(&quot;0000&quot;,&quot;1987&quot;)" methodname="Should_Count_Fewest_Lock_Turns(&quot;0000&quot;,&quot;1987&quot;)" classname="BriefcaseLockTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.0001399" asserts="0" seed="159998205">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BriefcaseLock.TurnsRequired(String current, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BriefcaseLock.cs:line 27
+   at Tests.BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(String start, String target) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\BriefcaseLockTests.cs:line 19
+   at InvokeStub_BriefcaseLockTests.Should_Count_Fewest_Lock_Turns(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="CountTheLettersAndDigitsTests" fullname="Tests.CountTheLettersAndDigitsTests" classname="Tests.CountTheLettersAndDigitsTests" total="9" passed="0" failed="9" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.0019519">
+        <test-case name="Should_Count_Letters_And_Digits(&quot;Hello World!&quot;)" fullname="Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(&quot;Hello World!&quot;)" methodname="Should_Count_Letters_And_Digits(&quot;Hello World!&quot;)" classname="CountTheLettersAndDigitsTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.00046" asserts="0" seed="126067714">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CountTheLettersAndDigits.Count(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CountTheLettersAndDigits.cs:line 25
+   at Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CountTheLettersAndDigitsTests.cs:line 23
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Letters_And_Digits(&quot;Hello World! 123&quot;)" fullname="Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(&quot;Hello World! 123&quot;)" methodname="Should_Count_Letters_And_Digits(&quot;Hello World! 123&quot;)" classname="CountTheLettersAndDigitsTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000355" asserts="0" seed="704951698">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CountTheLettersAndDigits.Count(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CountTheLettersAndDigits.cs:line 25
+   at Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CountTheLettersAndDigitsTests.cs:line 23
+   at InvokeStub_CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Letters_And_Digits(&quot;H31l0 World!&quot;)" fullname="Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(&quot;H31l0 World!&quot;)" methodname="Should_Count_Letters_And_Digits(&quot;H31l0 World!&quot;)" classname="CountTheLettersAndDigitsTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.0001689" asserts="0" seed="1270319599">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CountTheLettersAndDigits.Count(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CountTheLettersAndDigits.cs:line 25
+   at Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CountTheLettersAndDigitsTests.cs:line 23
+   at InvokeStub_CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Letters_And_Digits(&quot;Today is 2022-01-01&quot;)" fullname="Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(&quot;Today is 2022-01-01&quot;)" methodname="Should_Count_Letters_And_Digits(&quot;Today is 2022-01-01&quot;)" classname="CountTheLettersAndDigitsTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000191" asserts="0" seed="196865138">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CountTheLettersAndDigits.Count(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CountTheLettersAndDigits.cs:line 25
+   at Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CountTheLettersAndDigitsTests.cs:line 23
+   at InvokeStub_CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Letters_And_Digits(&quot;1234567890&quot;)" fullname="Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(&quot;1234567890&quot;)" methodname="Should_Count_Letters_And_Digits(&quot;1234567890&quot;)" classname="CountTheLettersAndDigitsTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000155" asserts="0" seed="1708359127">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CountTheLettersAndDigits.Count(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CountTheLettersAndDigits.cs:line 25
+   at Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CountTheLettersAndDigitsTests.cs:line 23
+   at InvokeStub_CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0&quot;)" fullname="Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0&quot;)" methodname="Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0&quot;)" classname="CountTheLettersAndDigitsTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000175" asserts="0" seed="2003749598">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CountTheLettersAndDigits.Count(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CountTheLettersAndDigits.cs:line 25
+   at Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CountTheLettersAndDigitsTests.cs:line 23
+   at InvokeStub_CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0&quot;)" fullname="Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0&quot;)" methodname="Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0&quot;)" classname="CountTheLettersAndDigitsTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000146" asserts="0" seed="1091837583">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CountTheLettersAndDigits.Count(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CountTheLettersAndDigits.cs:line 25
+   at Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CountTheLettersAndDigitsTests.cs:line 23
+   at InvokeStub_CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6&quot;)" fullname="Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6&quot;)" methodname="Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6&quot;)" classname="CountTheLettersAndDigitsTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000159" asserts="0" seed="367930589">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CountTheLettersAndDigits.Count(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CountTheLettersAndDigits.cs:line 25
+   at Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CountTheLettersAndDigitsTests.cs:line 23
+   at InvokeStub_CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6&quot;)" fullname="Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6&quot;)" methodname="Should_Count_Letters_And_Digits(&quot;a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6&quot;)" classname="CountTheLettersAndDigitsTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000142" asserts="0" seed="1398176261">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CountTheLettersAndDigits.Count(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CountTheLettersAndDigits.cs:line 25
+   at Tests.CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CountTheLettersAndDigitsTests.cs:line 23
+   at InvokeStub_CountTheLettersAndDigitsTests.Should_Count_Letters_And_Digits(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="CycleDetectorTests" fullname="Tests.CycleDetectorTests" classname="Tests.CycleDetectorTests" total="5" passed="0" failed="5" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.003638">
+        <test-case name="Should_Return_3_For_Chain" fullname="Tests.CycleDetectorTests.Should_Return_3_For_Chain" methodname="Should_Return_3_For_Chain" classname="CycleDetectorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000384" asserts="0" seed="963128059">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BinaryTreeMaxDepth.GetMaxDepth(BinaryNode rootNode) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BinaryTreeMaxDepth.cs:line 26
+   at Tests.CycleDetectorTests.Should_Return_3_For_Chain() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CycleDetectorTests.cs:line 118
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_4_For_Exemplary_Tree" fullname="Tests.CycleDetectorTests.Should_Return_4_For_Exemplary_Tree" methodname="Should_Return_4_For_Exemplary_Tree" classname="CycleDetectorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000424" asserts="0" seed="1214887449">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.BinaryTreeMaxDepth.GetMaxDepth(BinaryNode rootNode) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\BinaryTreeMaxDepth.cs:line 26
+   at Tests.CycleDetectorTests.Should_Return_4_For_Exemplary_Tree() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CycleDetectorTests.cs:line 100
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_False_For_A_Tree" fullname="Tests.CycleDetectorTests.Should_Return_False_For_A_Tree" methodname="Should_Return_False_For_A_Tree" classname="CycleDetectorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.001944" asserts="0" seed="443060484">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CycleDetector.HasCycles(Graph graph) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CycleDetector.cs:line 21
+   at Tests.CycleDetectorTests.Should_Return_False_For_A_Tree() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CycleDetectorTests.cs:line 39
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_False_For_Single_Node" fullname="Tests.CycleDetectorTests.Should_Return_False_For_Single_Node" methodname="Should_Return_False_For_Single_Node" classname="CycleDetectorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000484" asserts="0" seed="2034859665">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CycleDetector.HasCycles(Graph graph) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CycleDetector.cs:line 21
+   at Tests.CycleDetectorTests.Should_Return_False_For_Single_Node() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CycleDetectorTests.cs:line 16
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_True_For_If_Has_Cycle" fullname="Tests.CycleDetectorTests.Should_Return_True_For_If_Has_Cycle" methodname="Should_Return_True_For_If_Has_Cycle" classname="CycleDetectorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000402" asserts="0" seed="1442035226">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.CycleDetector.HasCycles(Graph graph) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\CycleDetector.cs:line 21
+   at Tests.CycleDetectorTests.Should_Return_True_For_If_Has_Cycle() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\CycleDetectorTests.cs:line 62
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="DigitSumCalculatorTests" fullname="Tests.DigitSumCalculatorTests" classname="Tests.DigitSumCalculatorTests" total="7" passed="0" failed="7" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.0259119">
+        <test-case name="SumOfDigits_NegativeValue_ShouldThrowArgumentException" fullname="Tests.DigitSumCalculatorTests.SumOfDigits_NegativeValue_ShouldThrowArgumentException" methodname="SumOfDigits_NegativeValue_ShouldThrowArgumentException" classname="DigitSumCalculatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.024957" asserts="0" seed="1063756973">
+          <failure>
+            <message>  Expected: &lt;System.ArgumentException&gt;
+  But was:  &lt;System.NotImplementedException: The method or operation is not implemented.
+   at Challenge.DigitSumCalculator.SumOfDigits(Int32 number) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\DigitSumCalculator.cs:line 14
+   at Tests.DigitSumCalculatorTests.&lt;&gt;c__DisplayClass1_0.&lt;SumOfDigits_NegativeValue_ShouldThrowArgumentException&gt;b__0() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\DigitSumCalculatorTests.cs:line 21
+   at NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)&gt;
+</message>
+            <stack-trace>   at Tests.DigitSumCalculatorTests.SumOfDigits_NegativeValue_ShouldThrowArgumentException() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\DigitSumCalculatorTests.cs:line 21
+
+1)    at Tests.DigitSumCalculatorTests.SumOfDigits_NegativeValue_ShouldThrowArgumentException() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\DigitSumCalculatorTests.cs:line 21
+
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(6,123)" fullname="Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(6,123)" methodname="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(6,123)" classname="DigitSumCalculatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000343" asserts="0" seed="756337046">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.DigitSumCalculator.SumOfDigits(Int32 number) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\DigitSumCalculator.cs:line 14
+   at Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Int32 expected, Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\DigitSumCalculatorTests.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(0,0)" fullname="Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(0,0)" methodname="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(0,0)" classname="DigitSumCalculatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000306" asserts="0" seed="1905881808">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.DigitSumCalculator.SumOfDigits(Int32 number) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\DigitSumCalculator.cs:line 14
+   at Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Int32 expected, Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\DigitSumCalculatorTests.cs:line 13
+   at InvokeStub_DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(15,555)" fullname="Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(15,555)" methodname="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(15,555)" classname="DigitSumCalculatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.6E-05" asserts="0" seed="1872979025">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.DigitSumCalculator.SumOfDigits(Int32 number) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\DigitSumCalculator.cs:line 14
+   at Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Int32 expected, Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\DigitSumCalculatorTests.cs:line 13
+   at InvokeStub_DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(1,10)" fullname="Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(1,10)" methodname="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(1,10)" classname="DigitSumCalculatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.49E-05" asserts="0" seed="134624664">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.DigitSumCalculator.SumOfDigits(Int32 number) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\DigitSumCalculator.cs:line 14
+   at Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Int32 expected, Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\DigitSumCalculatorTests.cs:line 13
+   at InvokeStub_DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(1,1000000)" fullname="Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(1,1000000)" methodname="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(1,1000000)" classname="DigitSumCalculatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.3E-05" asserts="0" seed="1206432355">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.DigitSumCalculator.SumOfDigits(Int32 number) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\DigitSumCalculator.cs:line 14
+   at Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Int32 expected, Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\DigitSumCalculatorTests.cs:line 13
+   at InvokeStub_DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(2,101)" fullname="Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(2,101)" methodname="SumOfDigits_PositiveValue_ShouldReturnCorrectValue(2,101)" classname="DigitSumCalculatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.2E-05" asserts="0" seed="1681670799">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.DigitSumCalculator.SumOfDigits(Int32 number) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\DigitSumCalculator.cs:line 14
+   at Tests.DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Int32 expected, Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\DigitSumCalculatorTests.cs:line 13
+   at InvokeStub_DigitSumCalculatorTests.SumOfDigits_PositiveValue_ShouldReturnCorrectValue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="ListMergerTests" fullname="Tests.ListMergerTests" classname="Tests.ListMergerTests" total="1" passed="0" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000916">
+        <test-case name="Should_Merge_Two_Lists" fullname="Tests.ListMergerTests.Should_Merge_Two_Lists" methodname="Should_Merge_Two_Lists" classname="ListMergerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000916" asserts="0" seed="1879570935">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.ListMerger.Merge(Int32[] left, Int32[] right) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\ListMerger.cs:line 24
+   at Tests.ListMergerTests.Should_Merge_Two_Lists() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\ListMergerTests.cs:line 47
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="MatrixRotatorTests" fullname="Tests.MatrixRotatorTests" classname="Tests.MatrixRotatorTests" total="6" passed="0" failed="6" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.001806">
+        <test-case name="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" fullname="Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" methodname="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" classname="MatrixRotatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000331" asserts="0" seed="1647757520">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MatrixRotator.RotateMatrix(Int32[,] matrix) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MatrixRotator.cs:line 20
+   at Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(Int32[,] expected, Int32[,] input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MatrixRotatorTests.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" fullname="Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" methodname="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" classname="MatrixRotatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000327" asserts="0" seed="1895876627">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MatrixRotator.RotateMatrix(Int32[,] matrix) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MatrixRotator.cs:line 20
+   at Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(Int32[,] expected, Int32[,] input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MatrixRotatorTests.cs:line 13
+   at InvokeStub_MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" fullname="Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" methodname="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" classname="MatrixRotatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000124" asserts="0" seed="1686201582">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MatrixRotator.RotateMatrix(Int32[,] matrix) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MatrixRotator.cs:line 20
+   at Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(Int32[,] expected, Int32[,] input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MatrixRotatorTests.cs:line 13
+   at InvokeStub_MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" fullname="Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" methodname="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" classname="MatrixRotatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000119" asserts="0" seed="2002940800">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MatrixRotator.RotateMatrix(Int32[,] matrix) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MatrixRotator.cs:line 20
+   at Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(Int32[,] expected, Int32[,] input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MatrixRotatorTests.cs:line 13
+   at InvokeStub_MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" fullname="Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" methodname="RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(System.Int32[,],System.Int32[,])" classname="MatrixRotatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000114" asserts="0" seed="1846166074">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MatrixRotator.RotateMatrix(Int32[,] matrix) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MatrixRotator.cs:line 20
+   at Tests.MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(Int32[,] expected, Int32[,] input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MatrixRotatorTests.cs:line 13
+   at InvokeStub_MatrixRotatorTests.RotateMatrix_ShouldReturnCorrectlyRotatedMatrix(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="RotateMatrix_ShouldThrowArgumentException_WhenMatrixIsNotSquare" fullname="Tests.MatrixRotatorTests.RotateMatrix_ShouldThrowArgumentException_WhenMatrixIsNotSquare" methodname="RotateMatrix_ShouldThrowArgumentException_WhenMatrixIsNotSquare" classname="MatrixRotatorTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000791" asserts="0" seed="1434079433">
+          <failure>
+            <message>  Expected: &lt;System.ArgumentException&gt;
+  But was:  &lt;System.NotImplementedException: The method or operation is not implemented.
+   at Challenge.MatrixRotator.RotateMatrix(Int32[,] matrix) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MatrixRotator.cs:line 20
+   at Tests.MatrixRotatorTests.&lt;&gt;c__DisplayClass1_0.&lt;RotateMatrix_ShouldThrowArgumentException_WhenMatrixIsNotSquare&gt;b__0() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MatrixRotatorTests.cs:line 25
+   at NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)&gt;
+</message>
+            <stack-trace>   at Tests.MatrixRotatorTests.RotateMatrix_ShouldThrowArgumentException_WhenMatrixIsNotSquare() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MatrixRotatorTests.cs:line 25
+
+1)    at Tests.MatrixRotatorTests.RotateMatrix_ShouldThrowArgumentException_WhenMatrixIsNotSquare() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MatrixRotatorTests.cs:line 25
+
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="MiddleCharacterTests" fullname="Tests.MiddleCharacterTests" classname="Tests.MiddleCharacterTests" total="7" passed="0" failed="7" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.001254">
+        <test-case name="Should_Return_Middle_Character(&quot;test&quot;)" fullname="Tests.MiddleCharacterTests.Should_Return_Middle_Character(&quot;test&quot;)" methodname="Should_Return_Middle_Character(&quot;test&quot;)" classname="MiddleCharacterTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.00035" asserts="0" seed="2062083377">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MiddleCharacter.GetMiddle(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MiddleCharacter.cs:line 24
+   at Tests.MiddleCharacterTests.Should_Return_Middle_Character(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MiddleCharacterTests.cs:line 18
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Middle_Character(&quot;testing&quot;)" fullname="Tests.MiddleCharacterTests.Should_Return_Middle_Character(&quot;testing&quot;)" methodname="Should_Return_Middle_Character(&quot;testing&quot;)" classname="MiddleCharacterTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000268" asserts="0" seed="1044413276">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MiddleCharacter.GetMiddle(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MiddleCharacter.cs:line 24
+   at Tests.MiddleCharacterTests.Should_Return_Middle_Character(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MiddleCharacterTests.cs:line 18
+   at InvokeStub_MiddleCharacterTests.Should_Return_Middle_Character(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Middle_Character(&quot;middle&quot;)" fullname="Tests.MiddleCharacterTests.Should_Return_Middle_Character(&quot;middle&quot;)" methodname="Should_Return_Middle_Character(&quot;middle&quot;)" classname="MiddleCharacterTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000156" asserts="0" seed="67643610">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MiddleCharacter.GetMiddle(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MiddleCharacter.cs:line 24
+   at Tests.MiddleCharacterTests.Should_Return_Middle_Character(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MiddleCharacterTests.cs:line 18
+   at InvokeStub_MiddleCharacterTests.Should_Return_Middle_Character(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Middle_Character(&quot;character&quot;)" fullname="Tests.MiddleCharacterTests.Should_Return_Middle_Character(&quot;character&quot;)" methodname="Should_Return_Middle_Character(&quot;character&quot;)" classname="MiddleCharacterTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000121" asserts="0" seed="1991507287">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MiddleCharacter.GetMiddle(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MiddleCharacter.cs:line 24
+   at Tests.MiddleCharacterTests.Should_Return_Middle_Character(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MiddleCharacterTests.cs:line 18
+   at InvokeStub_MiddleCharacterTests.Should_Return_Middle_Character(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Middle_Character(&quot;A&quot;)" fullname="Tests.MiddleCharacterTests.Should_Return_Middle_Character(&quot;A&quot;)" methodname="Should_Return_Middle_Character(&quot;A&quot;)" classname="MiddleCharacterTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000124" asserts="0" seed="277666320">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MiddleCharacter.GetMiddle(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MiddleCharacter.cs:line 24
+   at Tests.MiddleCharacterTests.Should_Return_Middle_Character(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MiddleCharacterTests.cs:line 18
+   at InvokeStub_MiddleCharacterTests.Should_Return_Middle_Character(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Middle_Character(&quot;Banana&quot;)" fullname="Tests.MiddleCharacterTests.Should_Return_Middle_Character(&quot;Banana&quot;)" methodname="Should_Return_Middle_Character(&quot;Banana&quot;)" classname="MiddleCharacterTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000119" asserts="0" seed="512682722">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MiddleCharacter.GetMiddle(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MiddleCharacter.cs:line 24
+   at Tests.MiddleCharacterTests.Should_Return_Middle_Character(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MiddleCharacterTests.cs:line 18
+   at InvokeStub_MiddleCharacterTests.Should_Return_Middle_Character(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Middle_Character(&quot;Bananas&quot;)" fullname="Tests.MiddleCharacterTests.Should_Return_Middle_Character(&quot;Bananas&quot;)" methodname="Should_Return_Middle_Character(&quot;Bananas&quot;)" classname="MiddleCharacterTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000116" asserts="0" seed="653300454">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.MiddleCharacter.GetMiddle(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\MiddleCharacter.cs:line 24
+   at Tests.MiddleCharacterTests.Should_Return_Middle_Character(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\MiddleCharacterTests.cs:line 18
+   at InvokeStub_MiddleCharacterTests.Should_Return_Middle_Character(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="NthFibonacciTests" fullname="Tests.NthFibonacciTests" classname="Tests.NthFibonacciTests" total="21" passed="0" failed="21" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.002761">
+        <test-case name="Should_Return_Nth_Fibonacci_Number(1)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(1)" methodname="Should_Return_Nth_Fibonacci_Number(1)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000344" asserts="0" seed="1487102196">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(2)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(2)" methodname="Should_Return_Nth_Fibonacci_Number(2)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000318" asserts="0" seed="1047974400">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(3)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(3)" methodname="Should_Return_Nth_Fibonacci_Number(3)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000157" asserts="0" seed="356153862">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(7)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(7)" methodname="Should_Return_Nth_Fibonacci_Number(7)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000121" asserts="0" seed="2135954080">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(10)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(10)" methodname="Should_Return_Nth_Fibonacci_Number(10)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000126" asserts="0" seed="192925495">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(20)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(20)" methodname="Should_Return_Nth_Fibonacci_Number(20)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000151" asserts="0" seed="1866787086">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(30)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(30)" methodname="Should_Return_Nth_Fibonacci_Number(30)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000102" asserts="0" seed="1328183239">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(40)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(40)" methodname="Should_Return_Nth_Fibonacci_Number(40)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.8E-05" asserts="0" seed="512706991">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(50)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(50)" methodname="Should_Return_Nth_Fibonacci_Number(50)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="9.6E-05" asserts="0" seed="373324535">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(60)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(60)" methodname="Should_Return_Nth_Fibonacci_Number(60)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.7E-05" asserts="0" seed="1895096083">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(70)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(70)" methodname="Should_Return_Nth_Fibonacci_Number(70)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.9E-05" asserts="0" seed="1106788324">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(80)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(80)" methodname="Should_Return_Nth_Fibonacci_Number(80)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000116" asserts="0" seed="1039830612">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(90)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(90)" methodname="Should_Return_Nth_Fibonacci_Number(90)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000151" asserts="0" seed="852717723">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(100)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(100)" methodname="Should_Return_Nth_Fibonacci_Number(100)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000126" asserts="0" seed="204203024">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(110)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(110)" methodname="Should_Return_Nth_Fibonacci_Number(110)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000157" asserts="0" seed="1019709253">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(120)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(120)" methodname="Should_Return_Nth_Fibonacci_Number(120)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000109" asserts="0" seed="1413948330">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(130)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(130)" methodname="Should_Return_Nth_Fibonacci_Number(130)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.1E-05" asserts="0" seed="598653598">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(140)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(140)" methodname="Should_Return_Nth_Fibonacci_Number(140)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000107" asserts="0" seed="1248205060">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(150)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(150)" methodname="Should_Return_Nth_Fibonacci_Number(150)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.7E-05" asserts="0" seed="324441624">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(160)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(160)" methodname="Should_Return_Nth_Fibonacci_Number(160)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.9E-05" asserts="0" seed="555244707">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Return_Nth_Fibonacci_Number(170)" fullname="Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(170)" methodname="Should_Return_Nth_Fibonacci_Number(170)" classname="NthFibonacciTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.9E-05" asserts="0" seed="1816820927">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NthFibonacci.Fibonacci(Int32 n) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NthFibonacci.cs:line 23
+   at Tests.NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Int32 input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NthFibonacciTests.cs:line 33
+   at InvokeStub_NthFibonacciTests.Should_Return_Nth_Fibonacci_Number(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="NumberPalyndromeTests" fullname="Tests.NumberPalyndromeTests" classname="Tests.NumberPalyndromeTests" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000751">
+        <test-case name="Should_Fail_On_NonPalyndrome" fullname="Tests.NumberPalyndromeTests.Should_Fail_On_NonPalyndrome" methodname="Should_Fail_On_NonPalyndrome" classname="NumberPalyndromeTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000457" asserts="0" seed="1478310329">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NumberPalyndrome.IsPalyndrome(UInt64 number) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NumberPalyndrome.cs:line 19
+   at Tests.NumberPalyndromeTests.Should_Fail_On_NonPalyndrome() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NumberPalyndromeTests.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Pass_On_Palyndrome" fullname="Tests.NumberPalyndromeTests.Should_Pass_On_Palyndrome" methodname="Should_Pass_On_Palyndrome" classname="NumberPalyndromeTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000294" asserts="0" seed="161254390">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.NumberPalyndrome.IsPalyndrome(UInt64 number) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\NumberPalyndrome.cs:line 19
+   at Tests.NumberPalyndromeTests.Should_Pass_On_Palyndrome() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\NumberPalyndromeTests.cs:line 18
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="PowerRangerTests" fullname="Tests.PowerRangerTests" classname="Tests.PowerRangerTests" total="15" passed="0" failed="15" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.001789">
+        <test-case name="Should_Count_Powers(2,48,65)" fullname="Tests.PowerRangerTests.Should_Count_Powers(2,48,65)" methodname="Should_Count_Powers(2,48,65)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000289" asserts="0" seed="176982541">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(3,1,27)" fullname="Tests.PowerRangerTests.Should_Count_Powers(3,1,27)" methodname="Should_Count_Powers(3,1,27)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.00036" asserts="0" seed="1803249870">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(1,1,1)" fullname="Tests.PowerRangerTests.Should_Count_Powers(1,1,1)" methodname="Should_Count_Powers(1,1,1)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="9.7E-05" asserts="0" seed="1727032903">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(1,1,100)" fullname="Tests.PowerRangerTests.Should_Count_Powers(1,1,100)" methodname="Should_Count_Powers(1,1,100)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.7E-05" asserts="0" seed="1101828893">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(2,1,100)" fullname="Tests.PowerRangerTests.Should_Count_Powers(2,1,100)" methodname="Should_Count_Powers(2,1,100)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.5E-05" asserts="0" seed="547962417">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(3,1,100)" fullname="Tests.PowerRangerTests.Should_Count_Powers(3,1,100)" methodname="Should_Count_Powers(3,1,100)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="9.5E-05" asserts="0" seed="1940123974">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(4,250,1300)" fullname="Tests.PowerRangerTests.Should_Count_Powers(4,250,1300)" methodname="Should_Count_Powers(4,250,1300)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.9E-05" asserts="0" seed="938883457">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(5,250,1300)" fullname="Tests.PowerRangerTests.Should_Count_Powers(5,250,1300)" methodname="Should_Count_Powers(5,250,1300)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.8E-05" asserts="0" seed="935528972">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(6,250,1300)" fullname="Tests.PowerRangerTests.Should_Count_Powers(6,250,1300)" methodname="Should_Count_Powers(6,250,1300)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="9.1E-05" asserts="0" seed="1655619016">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(7,250,1300)" fullname="Tests.PowerRangerTests.Should_Count_Powers(7,250,1300)" methodname="Should_Count_Powers(7,250,1300)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000108" asserts="0" seed="2121121021">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(8,250,1300)" fullname="Tests.PowerRangerTests.Should_Count_Powers(8,250,1300)" methodname="Should_Count_Powers(8,250,1300)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="9.2E-05" asserts="0" seed="2004593951">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(9,250,1300)" fullname="Tests.PowerRangerTests.Should_Count_Powers(9,250,1300)" methodname="Should_Count_Powers(9,250,1300)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.8E-05" asserts="0" seed="1879169827">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(10,250,1300)" fullname="Tests.PowerRangerTests.Should_Count_Powers(10,250,1300)" methodname="Should_Count_Powers(10,250,1300)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.8E-05" asserts="0" seed="84214753">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(11,250,1300)" fullname="Tests.PowerRangerTests.Should_Count_Powers(11,250,1300)" methodname="Should_Count_Powers(11,250,1300)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.8E-05" asserts="0" seed="263855125">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Count_Powers(12,5,100)" fullname="Tests.PowerRangerTests.Should_Count_Powers(12,5,100)" methodname="Should_Count_Powers(12,5,100)" classname="PowerRangerTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.4E-05" asserts="0" seed="1098578896">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.PowerRanger.CountPowers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\PowerRanger.cs:line 23
+   at Tests.PowerRangerTests.Should_Count_Powers(Int32 n, Int32 a, Int32 b) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\PowerRangerTests.cs:line 27
+   at InvokeStub_PowerRangerTests.Should_Count_Powers(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="SubstringFinderTests" fullname="Tests.SubstringFinderTests" classname="Tests.SubstringFinderTests" total="4" passed="0" failed="4" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000869">
+        <test-case name="LengthOfLongestSubstring_ShouldReturnCorrectValue(3,&quot;abcabcbb&quot;)" fullname="Tests.SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(3,&quot;abcabcbb&quot;)" methodname="LengthOfLongestSubstring_ShouldReturnCorrectValue(3,&quot;abcabcbb&quot;)" classname="SubstringFinderTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000368" asserts="0" seed="252322151">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.SubstringFinder.LengthOfLongestSubstring(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\SubstringFinder.cs:line 13
+   at Tests.SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(Int32 expected, String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\SubstringFinderTests.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="LengthOfLongestSubstring_ShouldReturnCorrectValue(1,&quot;bbbbb&quot;)" fullname="Tests.SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(1,&quot;bbbbb&quot;)" methodname="LengthOfLongestSubstring_ShouldReturnCorrectValue(1,&quot;bbbbb&quot;)" classname="SubstringFinderTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000325" asserts="0" seed="969074187">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.SubstringFinder.LengthOfLongestSubstring(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\SubstringFinder.cs:line 13
+   at Tests.SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(Int32 expected, String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\SubstringFinderTests.cs:line 13
+   at InvokeStub_SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="LengthOfLongestSubstring_ShouldReturnCorrectValue(3,&quot;pwwkew&quot;)" fullname="Tests.SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(3,&quot;pwwkew&quot;)" methodname="LengthOfLongestSubstring_ShouldReturnCorrectValue(3,&quot;pwwkew&quot;)" classname="SubstringFinderTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="9.2E-05" asserts="0" seed="656893538">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.SubstringFinder.LengthOfLongestSubstring(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\SubstringFinder.cs:line 13
+   at Tests.SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(Int32 expected, String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\SubstringFinderTests.cs:line 13
+   at InvokeStub_SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="LengthOfLongestSubstring_ShouldReturnCorrectValue(0,&quot;&quot;)" fullname="Tests.SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(0,&quot;&quot;)" methodname="LengthOfLongestSubstring_ShouldReturnCorrectValue(0,&quot;&quot;)" classname="SubstringFinderTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="8.4E-05" asserts="0" seed="1931575530">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.SubstringFinder.LengthOfLongestSubstring(String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\SubstringFinder.cs:line 13
+   at Tests.SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(Int32 expected, String input) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\SubstringFinderTests.cs:line 13
+   at InvokeStub_SubstringFinderTests.LengthOfLongestSubstring_ShouldReturnCorrectValue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="ValidParenthesesTests" fullname="Tests.ValidParenthesesTests" classname="Tests.ValidParenthesesTests" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000605">
+        <test-case name="Should_Fail_On_Invalid_Parentheses" fullname="Tests.ValidParenthesesTests.Should_Fail_On_Invalid_Parentheses" methodname="Should_Fail_On_Invalid_Parentheses" classname="ValidParenthesesTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000372" asserts="0" seed="1232575040">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.ValidParentheses.IsValid(String str) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\ValidParentheses.cs:line 26
+   at Tests.ValidParenthesesTests.Should_Fail_On_Invalid_Parentheses() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\ValidParenthesesTests.cs:line 40
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Should_Pass_On_Valid_Parentheses" fullname="Tests.ValidParenthesesTests.Should_Pass_On_Valid_Parentheses" methodname="Should_Pass_On_Valid_Parentheses" classname="ValidParenthesesTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000233" asserts="0" seed="1238608268">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.ValidParentheses.IsValid(String str) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\ValidParentheses.cs:line 26
+   at Tests.ValidParenthesesTests.Should_Pass_On_Valid_Parentheses() in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\ValidParenthesesTests.cs:line 21
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" name="WordSearchTests" fullname="Tests.WordSearchTests" classname="Tests.WordSearchTests" total="9" passed="0" failed="9" inconclusive="0" skipped="0" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.001551">
+        <test-case name="Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(System.Char[,],&quot;ABCB&quot;)" fullname="Tests.WordSearchTests.Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(System.Char[,],&quot;ABCB&quot;)" methodname="Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(System.Char[,],&quot;ABCB&quot;)" classname="WordSearchTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000297" asserts="0" seed="967549404">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.WordSearch.Exist(Char[,] board, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\WordSearch.cs:line 22
+   at Tests.WordSearchTests.Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(Char[,] matrix, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\WordSearchTests.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(System.Char[,],&quot;XYZ&quot;)" fullname="Tests.WordSearchTests.Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(System.Char[,],&quot;XYZ&quot;)" methodname="Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(System.Char[,],&quot;XYZ&quot;)" classname="WordSearchTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000255" asserts="0" seed="1778552203">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.WordSearch.Exist(Char[,] board, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\WordSearch.cs:line 22
+   at Tests.WordSearchTests.Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(Char[,] matrix, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\WordSearchTests.cs:line 22
+   at InvokeStub_WordSearchTests.Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(System.Char[,],&quot;ABCCEDE&quot;)" fullname="Tests.WordSearchTests.Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(System.Char[,],&quot;ABCCEDE&quot;)" methodname="Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(System.Char[,],&quot;ABCCEDE&quot;)" classname="WordSearchTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.00016" asserts="0" seed="1178577547">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.WordSearch.Exist(Char[,] board, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\WordSearch.cs:line 22
+   at Tests.WordSearchTests.Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(Char[,] matrix, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\WordSearchTests.cs:line 22
+   at InvokeStub_WordSearchTests.Exist_WhenWordDoesNotExistInGrid_ShouldReturnFalse(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;ABCCED&quot;)" fullname="Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;ABCCED&quot;)" methodname="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;ABCCED&quot;)" classname="WordSearchTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000239" asserts="0" seed="1754495018">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.WordSearch.Exist(Char[,] board, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\WordSearch.cs:line 22
+   at Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Char[,] matrix, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\WordSearchTests.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;SEE&quot;)" fullname="Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;SEE&quot;)" methodname="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;SEE&quot;)" classname="WordSearchTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="0.000254" asserts="0" seed="727961334">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.WordSearch.Exist(Char[,] board, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\WordSearch.cs:line 22
+   at Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Char[,] matrix, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\WordSearchTests.cs:line 13
+   at InvokeStub_WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;A&quot;)" fullname="Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;A&quot;)" methodname="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;A&quot;)" classname="WordSearchTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="9.6E-05" asserts="0" seed="1595527462">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.WordSearch.Exist(Char[,] board, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\WordSearch.cs:line 22
+   at Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Char[,] matrix, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\WordSearchTests.cs:line 13
+   at InvokeStub_WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;DEE&quot;)" fullname="Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;DEE&quot;)" methodname="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;DEE&quot;)" classname="WordSearchTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.9E-05" asserts="0" seed="1327031134">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.WordSearch.Exist(Char[,] board, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\WordSearch.cs:line 22
+   at Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Char[,] matrix, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\WordSearchTests.cs:line 13
+   at InvokeStub_WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;ESE&quot;)" fullname="Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;ESE&quot;)" methodname="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;ESE&quot;)" classname="WordSearchTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="9.2E-05" asserts="0" seed="426653398">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.WordSearch.Exist(Char[,] board, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\WordSearch.cs:line 22
+   at Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Char[,] matrix, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\WordSearchTests.cs:line 13
+   at InvokeStub_WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;ESEE&quot;)" fullname="Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;ESEE&quot;)" methodname="Exist_WhenWordExistsInGrid_ShouldReturnTrue(System.Char[,],&quot;ESEE&quot;)" classname="WordSearchTests" result="Failed" start-time="2024-10-23T17:29:24Z" end-time="2024-10-23T17:29:24Z" duration="7.9E-05" asserts="0" seed="2075674173">
+          <failure>
+            <message>System.NotImplementedException : The method or operation is not implemented.</message>
+            <stack-trace>   at Challenge.WordSearch.Exist(Char[,] board, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Challenge\WordSearch.cs:line 22
+   at Tests.WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Char[,] matrix, String word) in C:\Users\rtackston\src\git\atl-ehv-conference-challenge-2024\Tests\WordSearchTests.cs:line 13
+   at InvokeStub_WordSearchTests.Exist_WhenWordExistsInGrid_ShouldReturnTrue(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>
