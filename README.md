@@ -1,5 +1,7 @@
 ﻿# AxionBio Software Conference Oct 2024: Coding Challenge
 
+Ha HA!
+
 ## Coding Exercises
 
 There are several coding tasks organized as the `Challenge` project.  
